@@ -1,0 +1,43 @@
+@media (max-width: 992px) {
+  /* ****************** */
+  /* PROJECTS */
+  /* ****************** */
+
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ****************** */
+  /* ABOUT */
+  /* ****************** */
+ .about-grid{
+    grid-template-columns: repeat(2,1fr);
+ }
+}
+
+@media (max-width: 600px) {
+  /* *************** */
+  /* NAVIGATION BAR  */
+  /* *************** */
+  .navbar-nav {
+    display: none;
+  }
+
+ /* *************** */
+/* HEADER  */
+/* *************** */
+.page-header span{
+display: none;
+}
+  /* ****************** */
+  /* PROJECTS */
+  /* ****************** */
+
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* ****************** */
+  /* ABOUT */
+  /* ****************** */
+}

@@ -1,0 +1,98 @@
+/* *************** */
+/* NAVIGATION BAR  */
+/* *************** */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+  padding: 8px 16px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1030;
+}
+
+.navbar-logo,
+.nav-link {
+  display: inline-block;
+  letter-spacing: 4px;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+.navbar-logo:hover,
+.nav-link:hover {
+  background-color: #ccc;
+}
+
+.navbar-logo span {
+  font-weight: bold;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+/* *************** */
+/* HEADER  */
+/* *************** */
+.header {
+  position: relative;
+}
+
+.img-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* *************** */
+/* PROJECTS  */
+/* *************** */
+.project-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  padding: 8px 16px;
+  color: white;
+}
+
+
+/* *************** */
+/* ABOUT  */
+/* *************** */
+
+.name {
+  font-size: 24px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+}
+
+.jobs {
+  opacity: 0.5;
+  margin: 15px 0;
+}
+
+.about-item p{
+  margin: 15px 0;
+}
+
+.contact-personal{
+text-align: center;
+padding:8px 16px;
+background-color: #cccccc97;
+}
+
+.contact-personal:hover{
+background-color: #f1f1f1;
+}
+
+
+/* *************** */
+/* CONTACT  */
+/* *************** */
+
+.contact p{
+  margin: 15px 0;
+}
